@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+    <div class="quiz">
+        <img src="images/quiz.JPG" alt="img" class="image" />
+        <h1>todays quiz</h1>
+
+        <div id="quizcontainer">
+            <div class="questions" id="question">
+            </div>
+                <ol type="A">
+                    <li class="option"><span id="option0" onclick="calcscore(this)"></span></li>
+                    <li class="option"><span id="option1" onclick="calcscore(this)"></span></li>
+                    <li class="option"><span id="option2" onclick="calcscore(this)"></span></li>
+                    <li class="option"><span id="option3" onclick="calcscore(this)"></span></li>
+                </ol>
+            <h4 id="stat"></h4>
+
+            <div class="buttons">
+                <button type="button" class="back">back</button>
+                <button type="button" class="next">next</button>
+            </div>
+        </div>
+
+    <div id="scoreboard">
+        <img src="" alt="">
+        <h2 id="score-title">your score</h2>
+        <h2 id="score"></h2>
+        <button type="button" id="score-btn">back to quiz</button>
+        <button type="button" id="check-answer" onclick="checkanswers()">check answer</button>
+    </div>
+    <div id="answerbook">
+        <h2>answer</h2>
+        <ol type="1" id="answers" >
+        
+        </ol>
+        <button type="button" id="score-btn">backto quiz</button>
+    </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

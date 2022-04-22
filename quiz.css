@@ -1,0 +1,46 @@
+.quiz
+{
+display: flex;
+justify-content:center;
+flex-direction: column;
+background-color: aliceblue;
+}
+.image{
+    width: 100px;
+}
+h1{
+
+    text-align: center;
+   
+}
+.quetions{
+    margin:0 25%
+}
+#quizcontainer{
+    background-color: bisque;
+    position: relative;
+    margin: auto;
+    }
+    #stat{
+
+        text-align: center;
+        
+    }
+    .next{
+    
+      position:relative;
+      display: block;
+      left: 45%;
+    bottom: 6px;
+    }
+    .back{
+    
+        position:relative;
+        display: block;
+        left: 34%;
+      bottom: 6px;
+      top: 15;
+      }
+.mystyle{
+    display:none;
+}
